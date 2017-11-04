@@ -86,12 +86,12 @@
     <Compile Include="Forms\CategoryForm.Designer.cs">
       <DependentUpon>CategoryForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="ConsoleApp3DataSet.Designer.cs">
+    <Compile Include="DataSet\ConsoleApp3DataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ConsoleApp3DataSet.xsd</DependentUpon>
     </Compile>
-    <Compile Include="ConsoleApp3DataSet1.Designer.cs">
+    <Compile Include="DataSet\ConsoleApp3DataSet1.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>ConsoleApp3DataSet1.xsd</DependentUpon>
@@ -123,7 +123,7 @@
     <Compile Include="Forms\OrderForm.Designer.cs">
       <DependentUpon>OrderForm.cs</DependentUpon>
     </Compile>
-    <Compile Include="OrdersDataSet.Designer.cs">
+    <Compile Include="DataSet\OrdersDataSet.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>OrdersDataSet.xsd</DependentUpon>
@@ -146,37 +146,37 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
-    <None Include="ConsoleApp3DataSet.xsc">
+    <None Include="DataSet\ConsoleApp3DataSet.xsc">
       <DependentUpon>ConsoleApp3DataSet.xsd</DependentUpon>
     </None>
-    <None Include="ConsoleApp3DataSet.xsd">
+    <None Include="DataSet\ConsoleApp3DataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>ConsoleApp3DataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="ConsoleApp3DataSet.xss">
+    <None Include="DataSet\ConsoleApp3DataSet.xss">
       <DependentUpon>ConsoleApp3DataSet.xsd</DependentUpon>
     </None>
-    <None Include="ConsoleApp3DataSet1.xsc">
+    <None Include="DataSet\ConsoleApp3DataSet1.xsc">
       <DependentUpon>ConsoleApp3DataSet1.xsd</DependentUpon>
     </None>
-    <None Include="ConsoleApp3DataSet1.xsd">
+    <None Include="DataSet\ConsoleApp3DataSet1.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>ConsoleApp3DataSet1.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="ConsoleApp3DataSet1.xss">
+    <None Include="DataSet\ConsoleApp3DataSet1.xss">
       <DependentUpon>ConsoleApp3DataSet1.xsd</DependentUpon>
     </None>
-    <None Include="OrdersDataSet.xsc">
+    <None Include="DataSet\OrdersDataSet.xsc">
       <DependentUpon>OrdersDataSet.xsd</DependentUpon>
     </None>
-    <None Include="OrdersDataSet.xsd">
+    <None Include="DataSet\OrdersDataSet.xsd">
       <Generator>MSDataSetGenerator</Generator>
       <LastGenOutput>OrdersDataSet.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="OrdersDataSet.xss">
+    <None Include="DataSet\OrdersDataSet.xss">
       <DependentUpon>OrdersDataSet.xsd</DependentUpon>
     </None>
     <None Include="packages.config" />

@@ -1,4 +1,6 @@
-﻿namespace ConsoleApp3
+﻿using ConsoleApp3.DataSet;
+
+namespace ConsoleApp3
 {
     partial class CategoryForm
     {
@@ -29,8 +31,8 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.consoleApp3DataSet1 = new ConsoleApp3.ConsoleApp3DataSet();
-            this.categoriesTableAdapter1 = new ConsoleApp3.ConsoleApp3DataSetTableAdapters.CategoriesTableAdapter();
+            this.consoleApp3DataSet1 = new ConsoleApp3.DataSet.ConsoleApp3DataSet();
+            this.categoriesTableAdapter1 = new ConsoleApp3.DataSet.ConsoleApp3DataSetTableAdapters.CategoriesTableAdapter();
             this.categoryBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.categoryIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -42,9 +44,9 @@
             this.addButton = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
             this.dataGridView2 = new System.Windows.Forms.DataGridView();
-            this.consoleApp3DataSet11 = new ConsoleApp3.ConsoleApp3DataSet1();
+            this.consoleApp3DataSet11 = new ConsoleApp3.DataSet.ConsoleApp3DataSet1();
             this.productsBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.productsTableAdapter = new ConsoleApp3.ConsoleApp3DataSet1TableAdapters.ProductsTableAdapter();
+            this.productsTableAdapter = new ConsoleApp3.DataSet.ConsoleApp3DataSet1TableAdapters.ProductsTableAdapter();
             this.productIDDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nameDataGridViewTextBoxColumn1 = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.unitsInStockDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -240,7 +242,7 @@
         #endregion
 
         private ConsoleApp3DataSet consoleApp3DataSet1;
-        private ConsoleApp3DataSetTableAdapters.CategoriesTableAdapter categoriesTableAdapter1;
+        private DataSet.ConsoleApp3DataSetTableAdapters.CategoriesTableAdapter categoriesTableAdapter1;
         private System.Windows.Forms.BindingSource categoryBindingSource;
         private System.Windows.Forms.DataGridView dataGridView1;
         private System.Windows.Forms.DataGridViewTextBoxColumn categoryIDDataGridViewTextBoxColumn;
@@ -254,7 +256,7 @@
         private System.Windows.Forms.DataGridView dataGridView2;
         private ConsoleApp3DataSet1 consoleApp3DataSet11;
         private System.Windows.Forms.BindingSource productsBindingSource;
-        private ConsoleApp3DataSet1TableAdapters.ProductsTableAdapter productsTableAdapter;
+        private DataSet.ConsoleApp3DataSet1TableAdapters.ProductsTableAdapter productsTableAdapter;
         private System.Windows.Forms.DataGridViewTextBoxColumn productIDDataGridViewTextBoxColumn;
         private System.Windows.Forms.DataGridViewTextBoxColumn nameDataGridViewTextBoxColumn1;
         private System.Windows.Forms.DataGridViewTextBoxColumn unitsInStockDataGridViewTextBoxColumn;

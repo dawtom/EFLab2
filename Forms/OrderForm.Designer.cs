@@ -31,8 +31,8 @@
             this.components = new System.ComponentModel.Container();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
             this.ordersBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.ordersDataSet = new ConsoleApp3.OrdersDataSet();
-            this.ordersTableAdapter = new ConsoleApp3.OrdersDataSetTableAdapters.OrdersTableAdapter();
+            this.ordersDataSet = new ConsoleApp3.DataSet.OrdersDataSet();
+            this.ordersTableAdapter = new ConsoleApp3.DataSet.OrdersDataSetTableAdapters.OrdersTableAdapter();
             this.placeAnOrderButton = new System.Windows.Forms.Button();
             this.backButton = new System.Windows.Forms.Button();
             this.shipAddressDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
@@ -156,9 +156,9 @@
         #endregion
 
         private System.Windows.Forms.DataGridView dataGridView1;
-        private OrdersDataSet ordersDataSet;
+        private DataSet.OrdersDataSet ordersDataSet;
         private System.Windows.Forms.BindingSource ordersBindingSource;
-        private OrdersDataSetTableAdapters.OrdersTableAdapter ordersTableAdapter;
+        private DataSet.OrdersDataSetTableAdapters.OrdersTableAdapter ordersTableAdapter;
         private System.Windows.Forms.Button placeAnOrderButton;
         private System.Windows.Forms.Button backButton;
         private System.Windows.Forms.DataGridViewTextBoxColumn orderIDDataGridViewTextBoxColumn;

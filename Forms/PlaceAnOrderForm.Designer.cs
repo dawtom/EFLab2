@@ -32,10 +32,10 @@
             this.comboBox1 = new System.Windows.Forms.ComboBox();
             this.productsBindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.bindingSource1 = new System.Windows.Forms.BindingSource(this.components);
-            this.ordersDataSet = new ConsoleApp3.OrdersDataSet();
+            this.ordersDataSet = new ConsoleApp3.DataSet.OrdersDataSet();
             this.categoriesBindingSource1 = new System.Windows.Forms.BindingSource(this.components);
             this.categoriesBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.categoriesTableAdapter = new ConsoleApp3.OrdersDataSetTableAdapters.CategoriesTableAdapter();
+            this.categoriesTableAdapter = new ConsoleApp3.DataSet.OrdersDataSetTableAdapters.CategoriesTableAdapter();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -46,7 +46,7 @@
             this.label7 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
             this.customersBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.customersTableAdapter = new ConsoleApp3.OrdersDataSetTableAdapters.CustomersTableAdapter();
+            this.customersTableAdapter = new ConsoleApp3.DataSet.OrdersDataSetTableAdapters.CustomersTableAdapter();
             this.countryTextBox = new System.Windows.Forms.TextBox();
             this.cityTextBox = new System.Windows.Forms.TextBox();
             this.addressTextBox = new System.Windows.Forms.TextBox();
@@ -57,7 +57,7 @@
             this.totalValueLabel = new System.Windows.Forms.Label();
             this.totalValueNumber = new System.Windows.Forms.Label();
             this.categoriesBindingSource2 = new System.Windows.Forms.BindingSource(this.components);
-            this.productsTableAdapter = new ConsoleApp3.OrdersDataSetTableAdapters.ProductsTableAdapter();
+            this.productsTableAdapter = new ConsoleApp3.DataSet.OrdersDataSetTableAdapters.ProductsTableAdapter();
             ((System.ComponentModel.ISupportInitialize)(this.productsBindingSource)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.bindingSource1)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.ordersDataSet)).BeginInit();
@@ -329,9 +329,9 @@
 
         private System.Windows.Forms.ComboBox comboBox1;
         private System.Windows.Forms.BindingSource bindingSource1;
-        private OrdersDataSet ordersDataSet;
+        private DataSet.OrdersDataSet ordersDataSet;
         private System.Windows.Forms.BindingSource categoriesBindingSource;
-        private OrdersDataSetTableAdapters.CategoriesTableAdapter categoriesTableAdapter;
+        private DataSet.OrdersDataSetTableAdapters.CategoriesTableAdapter categoriesTableAdapter;
         private System.Windows.Forms.BindingSource categoriesBindingSource1;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
@@ -343,7 +343,7 @@
         private System.Windows.Forms.Label label7;
         private System.Windows.Forms.Button button1;
         private System.Windows.Forms.BindingSource customersBindingSource;
-        private OrdersDataSetTableAdapters.CustomersTableAdapter customersTableAdapter;
+        private DataSet.OrdersDataSetTableAdapters.CustomersTableAdapter customersTableAdapter;
         private System.Windows.Forms.TextBox countryTextBox;
         private System.Windows.Forms.TextBox cityTextBox;
         private System.Windows.Forms.TextBox addressTextBox;
@@ -355,6 +355,6 @@
         private System.Windows.Forms.Label totalValueNumber;
         private System.Windows.Forms.BindingSource categoriesBindingSource2;
         private System.Windows.Forms.BindingSource productsBindingSource;
-        private OrdersDataSetTableAdapters.ProductsTableAdapter productsTableAdapter;
+        private DataSet.OrdersDataSetTableAdapters.ProductsTableAdapter productsTableAdapter;
     }
 }
